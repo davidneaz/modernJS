@@ -1,0 +1,12 @@
+node_modules/
+.idea/
+npm-debug.log
+/coverage
+/.nyc_output
+**/.DS_Store
+.vscode/
+dist
+package-lock\.json
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
