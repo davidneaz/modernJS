@@ -2,15 +2,15 @@
 
 # Install requirements
 
-sudo apt-get update
+sudo apt update
 
 # install node
-sudo apt-get install -y nodejs
+sudo apt install -y nodejs
 
 # install yarn
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-sudo apt-get install yarn
+sudo apt install yarn
 
 # install npm libraries
 yarn add babel-cli babel-core babel-eslint babel-loader
