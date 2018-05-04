@@ -18,3 +18,4 @@ yarn add babel-preset-env babel-preset-es2015 babel-preset-react babel-preset-st
 yarn add prettier
 yarn add eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
 yarn add axios
+yarn add net-ping
